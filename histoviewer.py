@@ -20,11 +20,11 @@ def histoviewer(df, default_col=None, serve='notebook'):
     pandas DataFrame input.
 
     Histograms (continuous variables) have interactive inputs for:
-        - rebinning from 10-100 Bins
-        - rescaling minimum and maximum bounds of axis
+        - rebinning histogram from 10-100 bins
+        - rescaling minimum/maximum bounds of histogram
     Bar Charts (categorical variables) have interactive inputs for:
-        - sorting by y-axis (descending) or x-axis (ascending)
-        - reindexing x-axis for hiding categories
+        - resorting by y-axis (descending) or x-axis (alphabetical)
+        - reindexing x-axis to filter categories
 
     Default serve mode assumes jupyter notebook. Histoviewer application could
     also be served from a python script via:
